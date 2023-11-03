@@ -1,0 +1,112 @@
+body {
+  width: 30%;
+  margin: auto;
+  height: 75vh;
+  margin-top: 70px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.scan-p {
+  font-size: 13px;
+  margin-top: -10px;
+  color: gray;
+}
+
+.qrscan {
+  position: relative;
+}
+
+.qrscan-img img {
+  width: 220px;
+  /* position: absolute; */
+  border: 1px solid rgb(184, 176, 176);
+  border-radius: 10px;
+}
+
+.qrscan-leaf {
+  position: absolute;
+  top: 75px;
+  left: 180px;
+  /* right: 200px; */
+  background-color: white;
+  padding: 10px;
+  /* border-radius: 4px; */
+
+  text-align: center;
+}
+
+.svg-leaf {
+  fill: green;
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 12px;
+}
+
+hr {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 78%;
+  margin-left: 45px;
+  color: gray;
+  font-size: 13px;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid rgb(184, 176, 176);
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+.scan-p3 {
+  width: 80%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.input {
+  border: 1px solid black;
+  padding: 10px;
+  width: 75%;
+  text-align: left;
+  border: 1px solid rgb(184, 176, 176);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.copy {
+  border: 1px solid black;
+  width: 15%;
+  border: 1px solid rgb(184, 176, 176);
+  border-radius: 5px;
+}
+
+button {
+  width: 80%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
