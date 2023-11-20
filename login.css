@@ -1,0 +1,53 @@
+body {
+  margin: auto;
+}
+
+form {
+  margin: auto;
+  margin-top: 5%;
+  width: 40%;
+  padding-top: 10px;
+  border-radius: 5px;
+  height: 60vh;
+  border: 1px solid black;
+  /* box-shadow: 3px 3px 3px 3px; */
+}
+
+h1 {
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+}
+
+label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  /* padding-left: 2%; */
+}
+
+input {
+  display: block;
+  border-radius: 3px;
+  border: 1px solid black;
+  width: 80%;
+  padding: 10px;
+  /* height: 5vh; */
+  margin: auto;
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  /* margin: auto; */
+  margin-left: 8%;
+  width: 40%;
+  height: 5vh;
+  border-radius: 3px;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
